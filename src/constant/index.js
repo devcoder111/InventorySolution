@@ -1,0 +1,14 @@
+export const SUBSCRIPTION_PLAN_FREE_ID = 1
+export const SUBSCRIPTION_PLAN_BUSINESS_MONTH_ID = 2
+export const SUBSCRIPTION_PLAN_BUSINESS_YEAR_ID = 3
+export const SUBSCRIPTION_PLAN_COMPANY_MONTH_ID = 4
+export const SUBSCRIPTION_PLAN_COMPANY_YEAR_ID = 5
+export const SUBSCRIPTION_PLAN_CORPORATE_YEAR_ID = 6
+
+export const LENGTH_TRIAL_IN_DAYS = 14
+
+export const SETTINGS_PAGE_USER_PROFILE = 'User Profile'
+export const SETTINGS_PAGE_SUBSCRIPTION = 'Subscription'
+export const SETTINGS_PAGE_GENERAL_SETTINGS = 'General Settings'
+export const SETTINGS_PAGE_CUSTOM_FIELDS = 'Custom Fields'
+export const SETTINGS_PAGE_SUBSCRIPTION_MANAGE_PLANS = 'Subscription Manage Plans'

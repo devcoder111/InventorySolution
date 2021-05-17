@@ -1,0 +1,49 @@
+.left-menu {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+
+  .v-list {
+    flex: 0 0 auto;
+  }
+
+  .btn-upgrade {
+    flex: 1 0 auto;
+    text-align: center;
+
+    .v-btn {
+      background-color: #e81936 !important;
+      transition: .3s;
+
+      &:hover {
+        background-color: #f1334e !important;
+      }
+    }
+  }
+
+  .btn-block-menu {
+    height: 200px;
+    text-align: center;
+
+    .btn-app {
+      img {
+        transition: .3s;
+        width: 140px;
+        border-radius: 4px;
+
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+
+  .menu-item-hiden {
+    display: none;
+  }
+
+  .v-list-item__title,
+  .v-list-item__subtitle {
+    flex: 0 1 auto;
+  }
+}

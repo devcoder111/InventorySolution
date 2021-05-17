@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Britecheck: How Inventory Management Software Can Help You Manage Inventory With Excel</title>
+
+    <meta name="description"
+        content="Britecheck’s inventory management software is designed to make Hospital inventory process to be simple and easy. Best Practices in using Inventory systems" />
+    <meta name="keywords" content="how to make an app, app maker, how to make your own app" />
+    <meta name="robots" content="all" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Simplest Inventory Management Software for Business &amp; Teams | britecheck" />
+    <meta name="twitter:description"
+        content="Our super simple inventory management software makes it easy for businesses and teams to keep track of their inventory effortlessly. Try it for free today." />
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6Q7X5FTH2Y"></script>
+    <script>
+        window.dataLayer = window.dataLayer || []
+
+        function gtag() {
+            dataLayer.push(arguments)
+        }
+        gtag('js', new Date())
+
+        gtag('config', 'G-6Q7X5FTH2Y')
+    </script>
+
+    <link rel="shortcut icon" href="/static/src/images/favicon2.ico" type="image/x-icon" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="/static/src/vendors/bootstrap/css/bootstrap.min.css" />
+    <!-- icons - font-awesome-->
+    <link rel="stylesheet" href="/static/src/vendors/font-awesome/css/font-awesome.min.css" />
+    <!-- owl.carousel.min.css -->
+    <link rel="stylesheet" href="/static/src/vendors/OwlCarousel2/owl.carousel.min.css" />
+    <link rel="stylesheet" href="/static/src/vendors/OwlCarousel2/owl.theme.default.min.css" />
+    <!-- Scroll Animation -->
+    <link rel="stylesheet" href="/static/src/vendors/animate/animate.min.css" />
+
+    <!-- main Styles-->
+    <link rel="stylesheet" href="/static/src/styles/style.css?13012021" />
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '265370068365227');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=265370068365227&ev=PageView&noscript=1" /></noscript>
+    <!-- End Facebook Pixel Code -->
+
+    <!-- Global site tag (gtag.js) - Google Ads: 408788746 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-408788746"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-408788746');
+    </script>
+
+    <script type="text/javascript">
+        adroll_adv_id = "7NH6QFEDSFFXVLMZZIVVA3";
+        adroll_pix_id = "KNEAUDJULZHGDNWP36GSFI";
+        adroll_version = "2.0";
+
+        (function (w, d, e, o, a) {
+            w.__adroll_loaded = true;
+            w.adroll = w.adroll || [];
+            w.adroll.f = ['setProperties', 'identify', 'track'];
+            var roundtripUrl = "https://s.adroll.com/j/" + adroll_adv_id +
+                "/roundtrip.js";
+            for (a = 0; a < w.adroll.f.length; a++) {
+                w.adroll[w.adroll.f[a]] = w.adroll[w.adroll.f[a]] || (function (n) {
+                    return function () {
+                        w.adroll.push([n, arguments])
+                    }
+                })(w.adroll.f[a])
+            }
+
+            e = d.createElement('script');
+            o = d.getElementsByTagName('script')[0];
+            e.async = 1;
+            e.src = roundtripUrl;
+            o.parentNode.insertBefore(e, o);
+        })(window, document);
+        adroll.track("pageView");
+    </script>
+</head>
+
+<body id="body" data-spy="scroll" data-target=".header">
+
+    <header class="header navbar-fixed-top">
+        <nav class="navbar" role="navigation">
+            <div class="container">
+                <div class="menu-container js_nav-item">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="fa fa-align-left"></span>
+                    </button>
+                    <div class="logo">
+                        <a class="logo-wrap" href="../index.html">
+                            <img class="logo-img logo-img-main"
+                                src="/static/src/images/logo-britecheck.png?231220201813" alt="Asentus Logo" />
+                            <img class="logo-img logo-img-active" src="/static/src/images/logo-britecheck-grey.png"
+                                alt="Asentus Logo" />
+                        </a>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse nav-collapse">
+                    <div class="menu-container">
+                        <ul class="nav navbar-nav navbar-nav-right">
+                            <li class="js_nav-item nav-item active">
+                                <a class="nav-item-child nav-item-hover" href="../index.html">Home</a>
+                            </li>
+                            <li class="js_nav-item nav-item">
+                                <a class="nav-item-child nav-item-hover" href="../pricing.html">Pricing</a>
+                            </li>
+                            <li class="js_nav-item nav-item">
+                                <a class="nav-item-child nav-item-hover"
+                                    href="https://britecheck.zendesk.com">Support</a>
+                            </li>
+                            <li class="js_nav-item nav-item">
+                                <a class="nav-item-child nav-item-hover" href="/login">Sign In</a>
+                            </li>
+                            <li class="js_nav-item nav-item">
+                                <a class="nav-item-child nav-item-hover nav-button" href="#">Sign Up</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- MAIN_SCREEN-->
+    <div class="promo-block promo-block-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+                    <div class="content-info">
+                        <div class="wow fadeIn" data-wow-duration="1.7s" data-wow-delay=".1s">
+                            <h1>How Inventory Management Software Can Help You Manage Inventory With Excel</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <section class="bg-grey section-wrapper-post">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+                    <div class="content-wrapper">
+                        <p>
+                            Microsoft Excel can manage all types of data. With this powerful software, you can organize,
+                            process, and present your data in numerous ways to derive its value. It is no surprise that
+                            <a href="https://www.supplychaindive.com/news/50-procurement-organizations-excel-data-analysis/565622/"
+                                tabindex="_blank" title="upplychaindive.com">50% of all procurement organizations</a>
+                            still use Excel to analyze and store their data.
+                        </p>
+
+                        <img src="/static/src/images/articles/br-post-img-1301-1.jpg" alt="article image"
+                            class="article-img" />
+                        <br><br>
+                        <p>
+                            That said, Excel has some significant limitations: For starters, it is not the easiest
+                            software to use. Getting in tune with all its features and formulas requires considerable
+                            time and practice. Organizations using Excel to manage inventory often invest in employee
+                            training or place Excel proficiency at the top of their prerequisites for new hires.
+                            <br><br>
+                            Moreover, although Excel’s primary selling point is its ability to automate calculations,
+                            its accuracy is limited to the method used to input data. Most Excel users input data
+                            manually, creating room for error even before Excel can begin doing its job.
+                            <br><br>
+                            Fortunately, solutions that make <b>inventory sheets</b> easier to use and reduce input
+                            errors exist. An inventory management app like <a href="https://britecheck.com/"
+                                target="_blank" title="https://britecheck.com/">Britecheck</a> can replace manual,
+                            error-prone data input processes with quick and accurate record keeping.
+                            <br><br>
+                            In this post, we unravel the makings of proper Excel-based inventory management and how you
+                            can make it more effective with inventory management software.
+                        </p>
+
+                        <h3>How to Use Excel for Inventory Management</h3>
+
+                        <p>
+                            Businesses have different needs. However, if you have opted to manage your inventory with
+                            Excel, you cannot go wrong with the standard tabs below.
+                        </p>
+
+                        <h4>1. Materials</h4>
+                        <p>
+                            The materials tab consists of your entire inventory list. This sheet helps you keep track of
+                            your stock items and the data that dictates ordering sequences and product details.
+                            <br>
+
+                            <br>To create your Materials sheet, make a table with at least the columns below:</br>
+                        </p>
+
+                        <p>
+                            ● <b>Material code:</b> The SKU, serial, or product numbers you will use to track your
+                            items<br>
+                            ● <b>Material description:</b> Product names as you know them, each allocated a material
+                            code<br>
+                            ● <b>Material group:</b> The purchasing or sales category for all stock items so you can
+                            track
+                            performance category-by-category.<br>
+                            ● <b>Material status:</b> Indicate if a stock item is active, slow-moving, or
+                            obsolete/discontinued.<br>
+                            ● <b>Storage location:</b> Stores, shelves, or bin numbers where all items are located so
+                            you can
+                            access them easily.<br>
+                            ● <b>Stock quantity:</b> The number of items you have in stock.<br>
+                            ● <b>Price:</b> Cost of each material. If you buy several separate items and use them to
+                            make a
+                            sale product, use the individual prices of these materials to determine the cost of your
+                            final product.<br>
+                            ● <b>Stock value:</b> The total monetary values of your inventory items, based on the cost
+                            per item
+                            and the stock quantity.<br>
+                            ● <b>Vendor:</b> Names of every material’s vendors<br>
+                            ● <b>Vendor lead time:</b> The average times between order placement and deliveries<br>
+                            ● <b>Reorder level:</b> Minimum allowable stock quantity, below which you must receive a new
+                            delivery.
+                        </p>
+
+                        <p>
+                            Once you have your basic material management table, you can beef it up with conditional
+                            formatting to monitor reorder levels or use a formula to dictate how much you need to order
+                            based on your consumption per day.
+                        </p>
+
+                        <h4>How Can Inventory Management Software Help You With Your Materials Tab?</h4>
+
+                        <p>
+                            Creating columns is the easiest part of making your inventory spreadsheet. After this task,
+                            you need to populate the columns with the respective data.
+                            <br><br>
+                            If you want to avoid this strenuous, time-consuming process, an inventory management app can
+                            help. Britecheck, for instance, scans product QR codes and records the captured data
+                            directly on Excel files and Google Sheets. Details like material codes, material
+                            descriptions, material groups, status, storage locations, stock quantity, and the vendor can
+                            be fed automatically to the Materials tab through scanning and simple Excel formulas,
+                            leaving you with fewer columns to fill.
+                        </p>
+
+                        <h4>2. Purchase Orders</h4>
+
+                        <p>
+                            The Materials tab helps you see how much stock you have at a particular time and determine
+                            when to reorder. However, once you place these orders, you need another tool to track them.
+                            With the Orders tab, you can monitor your pending purchases and stay on top of any delay,
+                            oversupply, and undersupply sheet.
+                            <br><br>
+                            <b>Below are the columns you need for your Orders sheet.</b>
+                        </p>
+
+                        <p>
+                            ● <b>Purchase order number:</b> The numbers you use to track purchase orders<br>
+                            ● <b>Material code:</b> The SKU, serial, or product numbers you use to track your items as
+                            they
+                            appear in your Materials sheet. List all material codes on separate rows, even if some have
+                            the same order number.<br>
+                            ● <b>Material description:</b> Product names as they appear in your Materials sheet.<br>
+                            ● <b>Material group:</b> The purchasing category for your stock items.<br>
+                            ● <b>Purchase date:</b> When you placed the order<br>
+                            ● <b>Quantity:</b> How much stock you ordered.<br>
+                            ● <b>Price:</b> How much you paid for each item<br>
+                            ● <b>Value:</b> The total cost of the items you ordered<br>
+                            ● <b>Expected delivery date:</b> When you expect to receive the ordered item, based on the
+                            purchase
+                            date and vendor lead times<br>
+                            ● <b>Actual delivery date:</b> When you receive the ordered item.
+                        </p>
+
+                        <p>
+                            The data points above are sufficient for most businesses, but you can add more columns
+                            depending on your needs. For instance, if you often make bulk orders that vendors fulfill
+                            with partial deliveries, you can include a “quantity delivered” and an “order balance”
+                            column to track incoming quantities.
+                            <br><br>
+                            Like the Materials sheet, the Orders tab can benefit from some conditional formatting. You
+                            can set rules to highlight pending or late deliveries or quantities yet to be delivered.
+                        </p>
+
+                        <h4>How Can Inventory Management Software Help You With Your Orders Tab?</h4>
+
+                        <p>
+                            The right IMS can save you valuable time when creating your Orders sheet by automatically
+                            populating the columns with material information through QR scanning. Furthermore, solutions
+                            like Britecheck support multiple platforms, which means you can view and update order
+                            information directly from your mobile device.
+                            <br><br>
+                            Instead of the traditional spreadsheet layout, Britecheck gives you an intuitive interface
+                            to feed order details and update your Orders tab accordingly in the background.
+                        </p>
+
+                        <h4>3. Sales</h4>
+
+                        <p>
+                            No inventory management system is complete without a sales tracker. You can set up your
+                            Sales sheet with the columns below.
+                        </p>
+
+                        <p>
+                            ● <b>Sales order number:</b> The numbers you use to track customer orders.<br>
+                            ● <b>Product code:</b> The SKU, serial, or product numbers you use to track your products as
+                            they
+                            appear in your Materials tab.<br>
+                            ● <b>Product description:</b> Product names as they appear in your Materials sheet.<br>
+                            ●<b> Product group:</b> The sales category for each stock item<br>
+                            ● <b>Order date:</b> When the customer made the order<br>
+                            ● <b>Customer:</b> The name or number allocated to the client buying each item<br>
+                            ● <b>Quantity:</b> How much of a stock item a client ordered<br>
+                            ● <b>Retail price:</b> How much a customer has paid for each ordered item<br>
+                            ● <b>Value:</b> The total amount you get from the sale<br>
+                            ● <b>Expected delivery date:</b> The dates when each item must be delivered to your
+                            customer<br>
+                            ● <b>Actual delivery date:</b> The actual delivery date for each product
+                        </p>
+
+                        <p>
+                            If you sell on multiple channels, such as both in-person and online, you can include a
+                            column that categorizes your orders based on these channels to separately track their
+                            performance. You can also have a “shipping date” and a “tracking number” column to closely
+                            monitor your online sales.
+                            <br><br>
+                            To take your Sales tab a notch higher, you can use conditional formatting to highlight late
+                            or high-priority orders and track additional data points like a customer’s preferred
+                            shipping method or the salesperson that closed the sale.
+                        </p>
+
+                        <h4>How Can Inventory Management Software Help You With Your Sales Tab?</h4>
+
+                        <p>
+                            Like the Materials and Orders tabs, the Sales sheet can benefit from the QR scanning
+                            capability of solutions like Britecheck. Columns like product code, description, and group
+                            can be captured and recorded automatically. The mobility factor also comes into play,
+                            enabling you to track your orders seamlessly while on the go.
+                            <br><br>
+                            More importantly, an IMS product can make it much easier to generate sales reports. These
+                            solutions come with built-in templates that can convert your Sales sheet to professional
+                            charts and graphs, giving you real-time insight into your business performance. With a few
+                            simple steps, you can get the information you need to forecast demand accurately and make
+                            critical decisions on time.
+                        </p>
+
+                        <h3>Make your inventory sheets more effective with inventory management software</h3>
+
+                        <p>
+                            Excel sheets can be effective tools for managing stocks. However, because of its complexity,
+                            Excel often works best when combined with a dedicated IMS. The right software can help you
+                            record data and generate reports with ease. It can also give you a user-friendly interface
+                            for monitoring and updating inventory data, so you never have to deal with your complicated
+                            <b>inventory sheets</b> directly.
+                            <br><br>
+                            Set up your inventory management software today, and transform the way you manage your stock
+                            with Excel.
+                        </p>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <ul class="footer-links links-bold border">
+                        <li>
+                            <a href="https://britecheck.zendesk.com" target="_blank">Support</a>
+                        </li>
+                        <li><a href="index.html">Blog</a></li>
+                        <li><a href="../about.html">About Us </a></li>
+                        <li><a href="../contactus.html">Contact Us</a></li>
+                        <li><a href="../pricing.html">Pricing</a></li>
+                    </ul>
+
+                    <ul class="footer-links">
+                        <li><a href="../terms-of-use.html">Terms or Service</a></li>
+                        <li><a href="../privacy-policy.html">Privacy Policy</a></li>
+                    </ul>
+
+                    <div class="copyright">
+                        <p>
+                            © Copyright 2020-2021 BRITECHECK<br />
+                            All other logos and trademarks are the property of their
+                            respective owners.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="/static/src/vendors/jquery/jquery.js"></script>
+<script src="/static/src/js/slider.js"></script>
+
+<script src="/static/src/vendors/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- PAGE LEVEL SCRIPTS -->
+<script src="/static/src/js/layout.js" type="text/javascript"></script>
+
+<!-- owl.carousel -->
+<script src="/static/src/vendors/OwlCarousel2/owl.carousel.js"></script>
+
+</html>

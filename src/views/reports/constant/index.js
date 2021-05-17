@@ -1,0 +1,11 @@
+export const FIELD_NAME = 'name'
+export const FIELD_QUANTITY = 'quantity'
+export const FIELD_VALUE = 'value'
+export const FIELD_PRICE = 'price'
+export const FIELD_QTY_OPEN = 'open'
+export const FIELD_QTY_CLOSE = 'close'
+export const FIELD_QTY_SHIPMENTS = 'ship'
+export const FIELD_QTY_ADJUSTMENTS = 'adjust'
+
+export const SORT_ORDER_ASC = 'asc'
+export const SORT_ORDER_DESC = 'desc'

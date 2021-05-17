@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Britecheck: How to Calculate Inventory Turnover: Definition, Formulas & Examples</title>
+
+    <meta name="description"
+        content="Britecheck’s inventory management software is designed to make Hospital inventory process to be simple and easy. Best Practices in using Inventory systems" />
+    <meta name="keywords" content="how to make an app, app maker, how to make your own app" />
+    <meta name="robots" content="all" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Simplest Inventory Management Software for Business &amp; Teams | britecheck" />
+    <meta name="twitter:description"
+        content="Our super simple inventory management software makes it easy for businesses and teams to keep track of their inventory effortlessly. Try it for free today." />
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6Q7X5FTH2Y"></script>
+    <script>
+        window.dataLayer = window.dataLayer || []
+
+        function gtag() {
+            dataLayer.push(arguments)
+        }
+        gtag('js', new Date())
+
+        gtag('config', 'G-6Q7X5FTH2Y')
+    </script>
+
+    <link rel="shortcut icon" href="/static/src/images/favicon2.ico" type="image/x-icon" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="/static/src/vendors/bootstrap/css/bootstrap.min.css" />
+    <!-- icons - font-awesome-->
+    <link rel="stylesheet" href="/static/src/vendors/font-awesome/css/font-awesome.min.css" />
+    <!-- owl.carousel.min.css -->
+    <link rel="stylesheet" href="/static/src/vendors/OwlCarousel2/owl.carousel.min.css" />
+    <link rel="stylesheet" href="/static/src/vendors/OwlCarousel2/owl.theme.default.min.css" />
+    <!-- Scroll Animation -->
+    <link rel="stylesheet" href="/static/src/vendors/animate/animate.min.css" />
+
+    <!-- main Styles-->
+    <link rel="stylesheet" href="/static/src/styles/style.css?13012021" />
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '265370068365227');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=265370068365227&ev=PageView&noscript=1" /></noscript>
+    <!-- End Facebook Pixel Code -->
+
+    <!-- Global site tag (gtag.js) - Google Ads: 408788746 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-408788746"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-408788746');
+    </script>
+
+    <script type="text/javascript">
+        adroll_adv_id = "7NH6QFEDSFFXVLMZZIVVA3";
+        adroll_pix_id = "KNEAUDJULZHGDNWP36GSFI";
+        adroll_version = "2.0";
+
+        (function (w, d, e, o, a) {
+            w.__adroll_loaded = true;
+            w.adroll = w.adroll || [];
+            w.adroll.f = ['setProperties', 'identify', 'track'];
+            var roundtripUrl = "https://s.adroll.com/j/" + adroll_adv_id +
+                "/roundtrip.js";
+            for (a = 0; a < w.adroll.f.length; a++) {
+                w.adroll[w.adroll.f[a]] = w.adroll[w.adroll.f[a]] || (function (n) {
+                    return function () {
+                        w.adroll.push([n, arguments])
+                    }
+                })(w.adroll.f[a])
+            }
+
+            e = d.createElement('script');
+            o = d.getElementsByTagName('script')[0];
+            e.async = 1;
+            e.src = roundtripUrl;
+            o.parentNode.insertBefore(e, o);
+        })(window, document);
+        adroll.track("pageView");
+    </script>
+</head>
+
+<body id="body" data-spy="scroll" data-target=".header">
+
+    <header class="header navbar-fixed-top">
+        <nav class="navbar" role="navigation">
+            <div class="container">
+                <div class="menu-container js_nav-item">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="fa fa-align-left"></span>
+                    </button>
+                    <div class="logo">
+                        <a class="logo-wrap" href="../index.html">
+                            <img class="logo-img logo-img-main"
+                                src="/static/src/images/logo-britecheck.png?231220201813" alt="Asentus Logo" />
+                            <img class="logo-img logo-img-active" src="/static/src/images/logo-britecheck-grey.png"
+                                alt="Asentus Logo" />
+                        </a>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse nav-collapse">
+                    <div class="menu-container">
+                        <ul class="nav navbar-nav navbar-nav-right">
+                            <li class="js_nav-item nav-item active">
+                                <a class="nav-item-child nav-item-hover" href="../index.html">Home</a>
+                            </li>
+                            <li class="js_nav-item nav-item">
+                                <a class="nav-item-child nav-item-hover" href="../pricing.html">Pricing</a>
+                            </li>
+                            <li class="js_nav-item nav-item">
+                                <a class="nav-item-child nav-item-hover"
+                                    href="https://britecheck.zendesk.com">Support</a>
+                            </li>
+                            <li class="js_nav-item nav-item">
+                                <a class="nav-item-child nav-item-hover" href="/login">Sign In</a>
+                            </li>
+                            <li class="js_nav-item nav-item">
+                                <a class="nav-item-child nav-item-hover nav-button" href="#">Sign Up</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- MAIN_SCREEN-->
+    <div class="promo-block promo-block-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+                    <div class="content-info">
+                        <div class="wow fadeIn" data-wow-duration="1.7s" data-wow-delay=".1s">
+                            <h1>How to Calculate Inventory Turnover: Definition, Formulas & Examples</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <section class="bg-grey section-wrapper-post">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+                    <div class="content-wrapper">
+                        <p>
+                            Your inventory management practices have a significant impact on your business’s long-term
+                            success. The better you are at holding stock that can fulfill demand and sustain growth and
+                            still leave enough free working capital for daily operations and projects, the more likely
+                            your company will prosper.
+                        </p>
+
+                        <img src="/static/src/images/articles/img-post-2701-1.jpg" alt="article image"
+                            class="article-img" />
+                        <br><br>
+                        <p>
+                            However, keeping inventory levels at optimum is easier said than done. With
+                            unpredictabilities like market trends, raw material price fluctuations, and especially
+                            today’s pandemic-related shakeups, it is virtually impossible to maintain a 100% accurate
+                            inventory efficiency. Nevertheless, you can get satisfyingly close to this number if you
+                            fully understand stock management’s fundamental concepts. One of these fundamentals is
+                            inventory turnover.
+                            <br><br>
+                            In this article, we dive deep into inventory turnover, uncovering what it is, the role it
+                            plays in inventory management, and most importantly, what you can do to improve it.
+                        </p>
+                        <br>
+
+                        <h3>What is inventory turnover?</h3>
+
+                        <p>
+                            Put simply, inventory turnover is the ratio between sales and current stock. Also known as
+                            inventory turn, this ratio is derived by dividing the cost of goods sold by the average
+                            inventory value. With this result, a business can calculate how many times it has sold and
+                            replaced inventory over a given period.
+                        </p>
+
+                        <p>
+                            Inventory turnover’s primary purpose is to show you how well stock moves through your
+                            business.
+                            <b>With that information, you can determine:</b>
+                        </p>
+
+                        <p>
+                            ● Whether you stock less or excess inventory relative to what you use or sell.<br>
+                            ● How often you restock and move inventory<br>
+                            ● If you make correct purchasing choices based on customer demand<br>
+                            ● The effectiveness of your marketing efforts.<br>
+                        </p>
+
+                        <p>
+                            Understanding inventory turnover can be a promising first step to achieving effective stock
+                            management. It gives you the answers to crucial questions regarding your stock and capital
+                            and makes you more confident when making critical business decisions.
+                        </p>
+
+                        <h3>Calculating inventory turnover</h3>
+
+                        <p>
+                            An inventory turn formula has two elements - current inventory and sales. So, the first step
+                            to calculating the ratio is determining your average inventory and the cost of goods you
+                            have sold over a particular period of interest, such as fiscal year, quarter, or month.
+                        </p>
+                        <br>
+
+                        <h4>Average inventory</h4>
+
+                        <p>
+                            Average inventory is the average value of your company’s stock over a set period. If you use
+                            an inventory management tool like <a href="https://britecheck.com/" target="_blank"
+                                title="Britecheck">Britecheck</a>, you can accurately determine this average by
+                            retrieving your opening and closing inventories from the app. With this data, you can easily
+                            calculate the average by adding your opening and closing inventory value and dividing the
+                            result by two.
+                        </p>
+
+                        <p>
+                            <i style="margin-left: 60px; color: #636183;">Average inventory = (Opening inventory balance
+                                + Closing inventory balance)/2</i>
+                        </p>
+
+                        <p>
+                            For example, if your opening stock value is $100,000, and the closing value is $150,000,
+                            your average inventory is $125,000.
+                        </p>
+                        <br>
+
+                        <h4>Cost of goods sold (COGS)</h4>
+
+                        <p>
+                            The cost of goods sold, also called the cost of sales, is a calculation of all the expenses
+                            that went into selling your products during the period in question. A simple determination
+                            is taking the inventory value at the period’s beginning, adding all the purchases you made,
+                            and subtracting the inventory value at the period’s end.
+                            <br><br>
+                            So, if your opening stock value was $100,000, the purchases made totaled $500,000, and your
+                            closing value was $150,000. Your COGS for that period was $450,000.
+                            <br><br>
+                            In addition to inventory turnover, COGS is also popularly used to calculate gross and net
+                            income. Gross income is gross revenue without COGS, while net income is gross revenue
+                            without COGS and expenses.
+                            <br><br>
+                            Now that you have both average inventory and the cost of sales, you can determine your
+                            inventory turnover ratio.
+                        </p>
+
+                        <p>
+                            <i style="margin-left: 60px; color: #636183;">Inventory turnover ratio = Cost of goods sold
+                                / Average inventory. </i>
+                        </p>
+                        <br>
+
+                        <h4>Inventory Turnover Example</h4>
+
+                        <p>
+                            Say, in the dreadful 2020, your average inventory value was $100,000, calculated from the
+                            average of your opening and closing stock. Meanwhile, the cost of goods you sold was
+                            $150,000, including expenses like inventory purchases, warehouse costs, and direct labor
+                            expenses.
+                            <br><br>
+                            $150,000 / $100,000 is 1.5, which means in 2020, your inventory turn was a miserable 1.5.
+                            COVID-19 indeed took its toll.
+                        </p>
+                        <br>
+
+                        <h3>
+                            Using the inventory turnover ratio for better stock management
+                        </h3>
+
+                        <p>
+                            An inventory turnover ratio that is too low or too high indicates ineffective inventorying.
+                            Low inventory turnover proves your stock is not moving as fast you would like, and your
+                            business is losing money because of having to hold inventory for longer than necessary. This
+                            lost revenue can be in the form of excess labor, storage facilities, or insurance charges.
+                            Moreover, you may have to discount or discard products that are nearing expiry.
+                            <br><br>
+
+                            On the other hand, high inventory turnover means your product is selling quickly, and your
+                            inventory is holding less working capital. If you deal with perishable products like
+                            foodstuff and flowers, a high turnover means you are losing little from stock expiries.
+                            <br><br>
+
+                            However, when your inventory turn is too high, it can signal that your business is
+                            struggling to keep up with demand and even losing out on potential sales. Even a slight
+                            disruption in your supply chain can lead to delayed or unfulfilled orders and cost you
+                            valuable clients. So, although business owners typically aspire to have a reasonably high
+                            turn, you may want to stock up a bit more to maintain a healthy inventory buffer for
+                            sustained growth.
+                            <br><br>
+                        </p>
+
+                        <h3>
+                            What is the right inventory turnover?
+                        </h3>
+
+                        <p>
+                            The ideal inventory turn ratio entirely depends on your industry. Different sectors have
+                            varying products and sale seasons. For example, if you sell Christmas merchandise, you can
+                            shoulder a lower turn in October and November in readiness for the demand spike in December.
+                            <br><br>
+
+                            That said, inventory turn is generally considered favorable if it lies between five and six.
+                            A five indicates strong stock management that sustains both demand and a short stock
+                            shelf-life.
+                        </p>
+                        <br>
+
+                        <h3>
+                            How to improve your inventory turnover
+                        </h3>
+
+                        <p>
+                            Calculating inventory turnover is of no use if you do not work to achieve the ideal ratio.
+                            Improving your turnover can make your stock management more efficient, reduce your storage
+                            costs, and boost profits.
+                            <br><br>
+
+                            Achieving the right inventory turn means being in constant control of both your inventory
+                            and cost of sales. It requires proper forecasting to determine when your demand peaks and
+                            drops, and effective marketing and smart pricing to keep your inventory moving. You must
+                            also adopt a restocking model that guides you to stock fewer quantities of fast-moving items
+                            that your supplier can deliver with a short lead time.
+                            <br><br>
+
+                            Additionally, keep a close eye on old stock and implement a firm first-in-first-out sale
+                            strategy. If you get stuck with some slow-moving stock, offer discounts and promotions to
+                            move it out quickly and get your inventory turnover back to normal.
+                            <br><br>
+
+                            Most effectively, ensure you have an inventory management system that supports your
+                            inventory turnover goal. With a mobile-based inventory app like Britecheck, you can monitor
+                            products as they move in and out of your store, right from the palm of your hand. These apps
+                            also give you real-time analysis, along with automated messages that tell you when your
+                            stock levels fall out of line. That way, you can take timely measures to adjust your
+                            inventory turnover.
+
+                        </p>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <ul class="footer-links links-bold border">
+                        <li>
+                            <a href="https://britecheck.zendesk.com" target="_blank">Support</a>
+                        </li>
+                        <li><a href="index.html">Blog</a></li>
+                        <li><a href="../about.html">About Us </a></li>
+                        <li><a href="../contactus.html">Contact Us</a></li>
+                        <li><a href="../pricing.html">Pricing</a></li>
+                    </ul>
+
+                    <ul class="footer-links">
+                        <li><a href="../terms-of-use.html">Terms or Service</a></li>
+                        <li><a href="../privacy-policy.html">Privacy Policy</a></li>
+                    </ul>
+
+                    <div class="copyright">
+                        <p>
+                            © Copyright 2020-2021 BRITECHECK<br />
+                            All other logos and trademarks are the property of their
+                            respective owners.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="/static/src/vendors/jquery/jquery.js"></script>
+<script src="/static/src/js/slider.js"></script>
+
+<script src="/static/src/vendors/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- PAGE LEVEL SCRIPTS -->
+<script src="/static/src/js/layout.js" type="text/javascript"></script>
+
+<!-- owl.carousel -->
+<script src="/static/src/vendors/OwlCarousel2/owl.carousel.js"></script>
+
+</html>

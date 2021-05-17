@@ -1,0 +1,16 @@
+.app {
+  .text-breadcum-settings {
+    font-size: 18px;
+    color: #5d5d5d;
+    font-family: 'Sourcesanspro' !important;
+
+    &.cursor-pointer {
+      color: #7671bd;
+      cursor: pointer;
+
+      &:hover {
+        color: #46409b;
+      }
+    }
+  }
+}

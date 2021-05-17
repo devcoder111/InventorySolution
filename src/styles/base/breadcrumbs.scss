@@ -1,0 +1,23 @@
+#app {
+  .breadcrumbs {
+    padding-bottom: 0;
+
+    .v-breadcrumbs__item {
+      font-size: 20px !important;
+      font-family: sans-serif;
+      font-weight: 400;
+      letter-spacing: .04em;
+      transition: .3s;
+
+      &:hover {
+        color: #7671bd;
+      }
+    }
+  }
+
+  .table-wrapper {
+    .v-breadcrumbs {
+      padding-bottom: 20px;
+    }
+  }
+}

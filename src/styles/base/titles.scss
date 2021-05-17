@@ -1,0 +1,19 @@
+#app {
+
+  .main-title,
+  .main-title span {
+    color: #363636;
+    font-weight: 500;
+    letter-spacing: 0.04rem !important;
+    font-family: "Roboto", sans-serif !important;
+    font-size: 1.45rem !important;
+    line-height: 1.3em;
+  }
+
+  .sub-title {
+    color: #424050;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif !important;
+    letter-spacing: 0.04rem !important;
+  }
+}
